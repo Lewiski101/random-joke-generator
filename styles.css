@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8; 
+  margin:0 auto;
+}
+
+/* Fixed Header Styling */
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ff9900;
+  background-image: url(Random-Joke-Generator.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  text-align: center;
+  background-position: center;
+  padding: 50px;
+  font-family: 'Comic Sans MS', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  filter: brightness(0.9);
+    text-shadow: 
+      2px 2px 0px black, 
+      -2px -2px 0px black, 
+      1px -2px 0px black, 
+      -2px 2px 0px black;
+}
+.hero-section {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ff9900;
+  background-image: url(Random-Joke-Generator.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  text-align: center;
+  background-position: center;
+  padding: 50px;
+  font-family: 'Comic Sans MS', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  filter: brightness(0.9);
+    text-shadow: 
+      2px 2px 0px black, 
+      -2px -2px 0px black, 
+      1px -2px 0px black, 
+      -2px 2px 0px black;
+}
+header h1{
+  color:rgb(255, 246, 246);
+  text-shadow: #333;
+}
+/* Tagline Styling */
+.tagline {
+  text-align: center;
+  margin-bottom: 20px;
+font-size: small;
+font-family: 'Comic Sans MS', sans-serif;
+color:white;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1; 
+  justify-content: center; 
+  align-items: center;
+  padding-top: 60px; 
+  padding-bottom: 60px;
+  margin:0 auto;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  line-height:30px;
+  margin:40px  auto;
+  margin:0 auto;
+
+
+}
+.container h2{
+  margin:20px auto;
+
+}
+.joke-card {
+  background-color: #eba30a; /* Bright yellow color for energy */
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  margin:0 auto;
+}
+
+.joke-card:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 2.1); 
+  transform: translateY(-10px) scale(1.05); 
+}
+h1 {
+  font-size: 24px;
+  color: #333;
+  font-family: 'Comic Sans MS', sans-serif; /* Playful font */
+  margin-bottom: 20px;
+}
+
+.joke-button {
+  background-color: #ff6600; 
+  font-size: 18px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.joke-button:hover {
+  background-color: #e65c00;
+}
+
+.joke-button:focus {
+  outline: none;
+}
+
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #8a0909;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 16px;
+  color:white ;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer a:hover {
+  color: #fc9905;
+  text-decoration: underline;
+}
+
+.footer ul li span {
+  color: #000;
+}
+
+.footer p {
+  margin-top: 10px;
+}
+.fa-youtube{
+ margin:0 20px;
+}
+.fa-youtube:hover{
+  transform:scale(1.5);
+}
+.fa-instagram:hover{
+  transform:scale(1.5);
+}
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-container {
+  max-width: 600px;
+  padding: 30px;
+  background-color: #da9109ee;
+  box-shadow: 1px 4px 8px rgba(61, 61, 54, 1.6); /* Box shadow for elevation effect */
+  border-radius: 8px;
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+
+}
+
+.about-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000000;
+}
+.fa-face-smile-wink{
+  font-size:40px;
+  color:rgb(0, 0, 0);
+}
+.fa-github{
+  margin:0 20px;
+}
+.fa-github:hover{
+  transform: scale(1.5);
+}
