@@ -223,6 +223,9 @@ h1 {
 .fa-face-smile-wink{
   font-size:40px;
   color:rgb(0, 0, 0);
+  border-radius: 200px;
+  box-shadow: 1px 2px 8px rgba(213, 216, 211, 1.1); /* Box shadow for elevation effect */
+
 }
 .fa-github{
   margin:0 20px;
