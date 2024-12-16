@@ -2,7 +2,7 @@
 
 A simple and fun web app that generates random jokes to brighten your day. Built using HTML, CSS, and JavaScript, this project features a clean design, smooth animations, and essential meta tags for social sharing.
 
-## 📖 Table of Contents
+## 📖 Table of Content
 - [Features](#features)
 - [Demo](#demo)
 - [Tech Stack](#tech-stack)
